@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PICT College</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+background-color:#f8f9fa;
+font-family:Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero{
+background:#0d6efd;
+color:white;
+padding:50px 0;
+text-align:center;
+}
+
+/* Achievement cards */
+.achievement-card{
+transition:0.3s;
+border:none;
+}
+
+.achievement-card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Topper cards */
+.card img{
+height:200px;
+object-fit:cover;
+}
+
+/* Footer */
+footer{
+background:#212529;
+color:white;
+padding:20px;
+margin-top:40px;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+}
+
+footer a:hover{
+text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+
+<a class="navbar-brand" href="#">PICT</a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="#">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Achievements</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Toppers</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#">Contact</a>
+</li>
+
+</ul>
+
+</div>
+</div>
+</nav>
+
+
+<!-- TITLE / HERO -->
+<div class="hero">
+<h1>Pune Institute of Computer Technology</h1>
+<p>Welcome to XYZ College</p>
+</div>
+
+
+<!-- ACHIEVEMENTS SECTION -->
+<div class="container my-5">
+
+<h2 class="text-center mb-4">Our Achievements</h2>
+
+<div class="row g-4">
+
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card achievement-card text-center shadow-sm h-100">
+
+<div class="card-body">
+
+<h1>🏆</h1>
+
+<h5 class="card-title">Top Engineering College</h5>
+
+<p class="card-text">
+Ranked among the top engineering colleges in Maharashtra with excellent academic performance.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card achievement-card text-center shadow-sm h-100">
+
+<div class="card-body">
+
+<h1>💼</h1>
+
+<h5 class="card-title">Excellent Placements</h5>
+
+<p class="card-text">
+Students placed in top companies like Google, Amazon, Microsoft and TCS.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card achievement-card text-center shadow-sm h-100">
+
+<div class="card-body">
+
+<h1>🔬</h1>
+
+<h5 class="card-title">Research & Innovation</h5>
+
+<p class="card-text">
+Modern research labs supporting innovation in AI, Data Science and Cloud Computing.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- TOPPERS SECTION -->
+<div class="container my-5">
+
+<h2 class="text-center mb-4">Year-Wise Toppers</h2>
+
+<div class="row g-4">
+
+<!-- 2024 -->
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card shadow-sm">
+
+<img src="topper1.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>2024 Topper</h5>
+
+<p><strong>Name:</strong> Rahul Sharma</p>
+
+<p><strong>Dept:</strong> IT</p>
+
+<p><strong>Percentage:</strong> 92%</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- 2023 -->
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card shadow-sm">
+
+<img src="topper2.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>2023 Topper</h5>
+
+<p><strong>Name:</strong> Sneha Patil</p>
+
+<p><strong>Dept:</strong> CS</p>
+
+<p><strong>Percentage:</strong> 94%</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- 2022 -->
+<div class="col-md-4 col-sm-6 col-12">
+
+<div class="card shadow-sm">
+
+<img src="topper3.jpg" class="card-img-top">
+
+<div class="card-body text-center">
+
+<h5>2022 Topper</h5>
+
+<p><strong>Name:</strong> Amit Joshi</p>
+
+<p><strong>Dept:</strong> ENTC</p>
+
+<p><strong>Percentage:</strong> 91%</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- FOOTER -->
+<footer class="text-center">
+
+<p><strong>Address:</strong> PICT, Pune, Maharashtra</p>
+
+<p><strong>Contact:</strong> +91 1234567890 | pict@college.edu</p>
+
+<p>
+Follow us:
+<a href="#">Facebook</a> |
+<a href="#">Instagram</a> |
+<a href="#">LinkedIn</a>
+</p>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

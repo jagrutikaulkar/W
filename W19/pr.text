@@ -1,0 +1,29 @@
+Test in Browser
+
+Insert students
+
+http://localhost:3000/insert
+
+Display students
+
+http://localhost:3000/students
+
+DSBDA > 20
+
+http://localhost:3000/dsbda20
+
+Update marks
+
+http://localhost:3000/update/ABC
+
+Students >25 all subjects
+
+http://localhost:3000/above25
+
+Less than 40 (Maths & Science)
+
+http://localhost:3000/less40
+
+Delete student
+
+http://localhost:3000/delete/ABC

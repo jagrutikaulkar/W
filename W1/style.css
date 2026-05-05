@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f5f7fa;
+}
+
+/* Center Heading */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+
+}
+
+/* Responsive Container */
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    background-color: white;
+}
+
+/* Table Cells */
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Image logic unchanged */
+td img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Table Header Color */
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Alternate row color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect */
+tr:hover {
+    background-color: #eaf4ff;
+}
+
+
+/* Pagination Styling */
+.pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+

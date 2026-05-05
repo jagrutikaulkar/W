@@ -1,0 +1,57 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f7;
+}
+
+/* HEADER */
+.ui-header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+
+/* FOOTER */
+.ui-footer {
+    background: #1e3c72 !important;
+    color: white !important;
+    text-shadow: none !important;
+}
+
+/* HERO */
+.home-hero {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.hero-kicker {
+    font-size: 12px;
+    color: #1e3c72;
+    font-weight: bold;
+}
+
+.hero-copy {
+    font-size: 13px;
+    color: #555;
+}
+
+/* NOTE */
+.section-note {
+    font-size: 13px;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* LIST FIX */
+.ui-listview li {
+    white-space: normal !important;
+}
+
+
+
+/* COLLAPSIBLE */
+.ui-collapsible-content {
+    background: #f9fafc;
+}

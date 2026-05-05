@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PICT Mobile Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- ================= HOME ================= -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>PICT</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home" class="ui-btn-active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h3>Welcome to PICT</h3>
+             <img src="pict.jpg" alt="PICT College" style="width:100%; border-radius:10px; margin:10px 0;">
+            <p>
+                Pune Institute of Computer Technology (PICT), Pune is one of the top engineering colleges in Maharashtra
+                known for academic excellence, discipline, and placements in top IT companies.
+            </p>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h3>PICT Mobile App</h3>
+    </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div data-role="page" id="about">
+
+    <div data-role="header">
+        <h1>About</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about" class="ui-btn-active">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div data-role="collapsible">
+            <h3>About PICT</h3>
+            <p>
+                PICT is affiliated to Savitribai Phule Pune University and is known for high-quality technical education,
+                strict academic environment, and excellent placements.
+            </p>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>Vision</h3>
+            <p>
+                To be a leading institute in technical education and research, producing globally competent engineers.
+            </p>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>Mission</h3>
+            <p>
+                • Quality technical education<br>
+                • Innovation & research<br>
+                • Industry-ready graduates<br>
+                • Leadership & ethics development
+            </p>
+        </div>
+
+        <div data-role="collapsible">
+            <h3>Achievements</h3>
+            <p>
+                • Top placements in IT companies<br>
+                • Alumni in Google, Microsoft, Amazon<br>
+                • Strong academic ranking<br>
+                • Active technical clubs
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= COURSES (FIXED RESPONSIVE) ================= -->
+<div data-role="page" id="courses">
+
+    <div data-role="header">
+        <h1>Courses</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses" class="ui-btn-active">Courses</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h3>Undergraduate Courses</h3>
+
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <b>B.E. Computer Engineering</b>
+                    <p>AI, ML, Software Development</p>
+                </li>
+                <li>
+                    <b>B.E. Information Technology</b>
+                    <p>Cloud, Networking, Data Systems</p>
+                </li>
+                <li>
+                    <b>B.E. Electronics & Telecommunication</b>
+                    <p>Communication Systems</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Postgraduate Courses</h3>
+
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <b>M.E. Computer Engineering</b>
+                    <p>Advanced Computing & Research</p>
+                </li>
+                <li>
+                    <b>M.E. Data Science</b>
+                    <p>AI, Machine Learning & Analytics</p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= CONTACT (WITH CONTACT FORM) ================= -->
+<div data-role="page" id="contact">
+
+    <div data-role="header">
+        <h1>Contact</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h3>Contact Us</h3>
+            <p>We are here to help you with admissions, queries and support.</p>
+        </div>
+
+        <div class="card">
+            <h3>College Details</h3>
+            <p><b>Address:</b> Dhankawadi, Pune - 411043</p>
+            <p><b>Phone:</b> 020-24371101</p>
+            <p><b>Email:</b> info@pict.edu</p>
+            <p><b>Website:</b> www.pict.edu</p>
+        </div>
+
+        <div class="card">
+            <h3>Send Message</h3>
+
+            <form>
+                <label>Name:</label>
+                <input type="text">
+
+                <label>Email:</label>
+                <input type="email">
+
+                <label>Message:</label>
+                <textarea rows="4"></textarea>
+
+                <a href="#" data-role="button">Submit</a>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

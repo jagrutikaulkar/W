@@ -1,0 +1,84 @@
+/* ===== GLOBAL ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef2f7;
+}
+
+/* ===== HEADER ===== */
+.ui-header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298) !important;
+    color: white !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+
+/* ===== NAVBAR ===== */
+.ui-navbar ul {
+    background: white;
+}
+
+.ui-navbar a {
+    background: white !important;
+    color: #1e3c72 !important;
+    font-weight: 600;
+}
+
+.ui-navbar .ui-btn-active {
+    background: #2a5298 !important;
+    color: white !important;
+}
+
+/* ===== CONTENT ===== */
+.ui-content {
+    padding: 15px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* ===== TEXT ===== */
+p {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* ===== BUTTON ===== */
+.ui-btn {
+    background: #2a5298 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
+
+/* ===== COLLAPSIBLE ===== */
+.ui-collapsible-heading {
+    background: white !important;
+    border-radius: 8px;
+}
+
+.ui-collapsible-content {
+    background: #f9fafc;
+    border-radius: 8px;
+}
+
+/* ===== LISTVIEW FIX (IMPORTANT FOR MOBILE) ===== */
+.ui-listview li {
+    white-space: normal !important;
+    background: white !important;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+/* ===== FOOTER ===== */
+.ui-footer {
+    background: #1e3c72 !important;
+    color: white !important;
+    text-shadow: none !important;
+}

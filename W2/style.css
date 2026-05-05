@@ -1,0 +1,140 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', Arial, sans-serif;
+}
+
+body{
+background:linear-gradient(to right,#f4f6f8,#eef2ff);
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(120deg,#1e293b,#334155);
+color:white;
+text-align:center;
+padding:35px 20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+}
+
+header h1{
+font-size:34px;
+margin-bottom:5px;
+letter-spacing:1px;
+}
+
+.contact{
+margin-top:5px;
+font-size:14px;
+opacity:0.9;
+}
+
+.links{
+margin-top:12px;
+}
+
+.links a{
+color:#38bdf8;
+margin:0 10px;
+text-decoration:none;
+font-weight:bold;
+padding:6px 14px;
+border-radius:20px;
+transition:0.3s;
+}
+
+.links a:hover{
+background:#38bdf8;
+color:white;
+}
+
+/* SECTION */
+
+section{
+max-width:900px;
+margin:35px auto;
+padding:0 20px;
+}
+
+section h2{
+border-bottom:2px solid #38bdf8;
+padding-bottom:6px;
+margin-bottom:18px;
+color:#1e293b;
+font-size:24px;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+padding:18px;
+margin-bottom:18px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+border-left:4px solid #38bdf8;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* LIST */
+
+ul{
+margin-left:20px;
+margin-top:8px;
+}
+
+/* SKILLS */
+
+.skills-container{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:18px;
+}
+
+.skill-box p{
+font-weight:bold;
+margin-bottom:6px;
+color:#1e293b;
+}
+
+.bar{
+width:100%;
+height:10px;
+background:#e2e8f0;
+border-radius:5px;
+overflow:hidden;
+}
+
+.fill{
+height:100%;
+background:linear-gradient(90deg,#38bdf8,#6366f1);
+animation:grow 2s ease;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+background:#1e293b;
+color:white;
+padding:16px;
+margin-top:40px;
+font-size:14px;
+}
+
+/* ANIMATION */
+
+@keyframes grow{
+from{
+width:0;
+}
+}

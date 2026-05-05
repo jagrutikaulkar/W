@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Rahul Sharma",   "designation": "Software Engineer", "department": "IT",      "salary": 75000, "image": "https://via.placeholder.com/60?text=RS" },
+  { "id": 2, "name": "Priya Desai",    "designation": "UI Designer",       "department": "Design",  "salary": 65000, "image": "https://via.placeholder.com/60?text=PD" },
+  { "id": 3, "name": "Amit Joshi",     "designation": "Project Manager",   "department": "PMO",     "salary": 95000, "image": "https://via.placeholder.com/60?text=AJ" },
+  { "id": 4, "name": "Sneha Kulkarni", "designation": "QA Engineer",       "department": "Testing", "salary": 60000, "image": "https://via.placeholder.com/60?text=SK" },
+  { "id": 5, "name": "Rohan Mehta",    "designation": "DevOps Engineer",   "department": "IT",      "salary": 80000, "image": "https://via.placeholder.com/60?text=RM" }
+]

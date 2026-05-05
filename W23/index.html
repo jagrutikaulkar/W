@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W23 - PICT Clubs</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- SAME STYLE CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- ================= HOME ================= -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>PICT Clubs</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#home" class="ui-btn-active">Home</a></li>
+            <li><a href="#coding">Coding</a></li>
+            <li><a href="#robotics">Robotics</a></li>
+            <li><a href="#dance">Dance</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h3>Student Clubs & Activities</h3>
+
+            <img src="clubs.jpg" alt="PICT Clubs" style="width:100%; border-radius:10px; margin:10px 0;">
+
+            <p>
+                PICT encourages students to participate in technical and cultural clubs to develop teamwork,
+                leadership, creativity and technical skills.
+            </p>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h3>PICT Pune</h3>
+    </div>
+</div>
+
+<!-- ================= CODING CLUB ================= -->
+<div data-role="page" id="coding">
+
+    <div data-role="header">
+        <h1>Coding Club</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="coding.jpg" style="width:100%; border-radius:10px;">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Description</h3>
+                <p>
+                    The Coding Club helps students improve programming, problem solving and competitive coding skills.
+                    It conducts coding contests, hackathons and workshops.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Achievements</h3>
+                <p>
+                    Students have participated in national hackathons, coding competitions and achieved top ranks.
+                </p>
+            </div>
+
+            <!-- FIXED TRANSITION -->
+            <a href="#home" data-role="button" data-transition="flip" >
+                Back to Home
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= ROBOTICS CLUB ================= -->
+<div data-role="page" id="robotics">
+
+    <div data-role="header">
+        <h1>Robotics Club</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="robotics.jpg" style="width:100%; border-radius:10px;">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Description</h3>
+                <p>
+                    The Robotics Club focuses on robot design, automation, sensors and embedded systems projects.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Achievements</h3>
+                <p>
+                    Won prizes in robotics competitions, tech exhibitions and inter-college innovation challenges.
+                </p>
+            </div>
+
+            <!-- FIXED TRANSITION -->
+            <a href="#home" data-role="button" data-transition="flip">
+                Back to Home
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= DANCE CLUB ================= -->
+<div data-role="page" id="dance">
+
+    <div data-role="header">
+        <h1>Dance Club</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="dance.jpg" style="width:100%; border-radius:10px;">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Description</h3>
+                <p>
+                    The Dance Club provides a platform for students to showcase talent in cultural events,
+                    annual gatherings and inter-college competitions.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Achievements</h3>
+                <p>
+                    Performed in multiple inter-college cultural events and won several stage performance awards.
+                </p>
+            </div>
+
+            <!-- FIXED TRANSITION -->
+            <a href="#home" data-role="button" data-transition="flip" >
+                Back to Home
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

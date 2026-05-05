@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Rahul Sharma",   "email": "rahul@example.com",  "city": "Pune",      "role": "Developer" },
+  { "id": 2, "name": "Priya Desai",    "email": "priya@example.com",  "city": "Mumbai",    "role": "Designer" },
+  { "id": 3, "name": "Amit Joshi",     "email": "amit@example.com",   "city": "Delhi",     "role": "Manager" },
+  { "id": 4, "name": "Sneha Kulkarni", "email": "sneha@example.com",  "city": "Bangalore", "role": "Tester" },
+  { "id": 5, "name": "Rohan Mehta",    "email": "rohan@example.com",  "city": "Chennai",   "role": "Developer" }
+]

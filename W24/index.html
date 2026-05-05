@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W24 - Movie Reviews</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery Mobile -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<!-- ================= HOME ================= -->
+<div data-role="page" id="home">
+
+    <div data-role="header">
+        <h1>Movie Reviews</h1>
+    </div>
+
+    <div data-role="navbar">
+        <ul>
+            <li><a href="#movie1" data-transition="slide">3 Idiots</a></li>
+            <li><a href="#movie2" data-transition="slide">Dangal</a></li>
+            <li><a href="#movie3" data-transition="slide">Interstellar</a></li>
+            <li><a href="#movie4" data-transition="slide">Bahubali</a></li>
+        </ul>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+            <h3>Movie Review App</h3>
+
+            <img src="movies.jpg" alt="Movies">
+
+            <p>
+                This mobile website displays static movie reviews including poster,
+                genre, summary and review in a structured format.
+            </p>
+        </div>
+
+    </div>
+
+    <div data-role="footer">
+        <h3>W24 - PICT</h3>
+    </div>
+</div>
+
+<!-- ================= MOVIE 1 ================= -->
+<div data-role="page" id="movie1">
+
+    <div data-role="header">
+        <h1>3 Idiots</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="images/3idiots.jpg">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Genre</h3>
+                <p>Comedy, Drama</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Summary</h3>
+                <p>
+                    Three engineering students learn friendship, life lessons and importance of passion.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Review</h3>
+                <p>
+                    Very inspiring and emotional movie with strong message.
+                </p>
+            </div>
+
+            <a href="#home" data-role="button" data-transition="flip">Back to Home</a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= MOVIE 2 ================= -->
+<div data-role="page" id="movie2">
+
+    <div data-role="header">
+        <h1>Dangal</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="images/dangal.jpg" alt="image.jps" style="width: 100%; border-radius: 10px; margin: 15px 0;">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Genre</h3>
+                <p>Sports, Biography</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Summary</h3>
+                <p>
+                    A father trains his daughters to become world-class wrestlers.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Review</h3>
+                <p>
+                    Motivational and emotional story about hard work and success.
+                </p>
+            </div>
+
+            <a href="#home" data-role="button" data-transition="flip">Back to Home</a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= MOVIE 3 ================= -->
+<div data-role="page" id="movie3">
+
+    <div data-role="header">
+        <h1>Interstellar</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="images/interstellar.jpg">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Genre</h3>
+                <p>Science Fiction</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Summary</h3>
+                <p>
+                    Space explorers search for a new planet for humanity survival.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Review</h3>
+                <p>
+                    Visually stunning and emotionally deep science fiction film.
+                </p>
+            </div>
+
+            <a href="#home" data-role="button" data-transition="flip">Back to Home</a>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= MOVIE 4 ================= -->
+<div data-role="page" id="movie4">
+
+    <div data-role="header">
+        <h1>Bahubali</h1>
+    </div>
+
+    <div data-role="content">
+
+        <div class="card">
+
+            <img src="images/bahubali.jpg">
+
+            <div data-role="collapsible" data-collapsed="false">
+                <h3>Genre</h3>
+                <p>Action, Drama</p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Summary</h3>
+                <p>
+                    A warrior discovers his true identity and fights for justice.
+                </p>
+            </div>
+
+            <div data-role="collapsible">
+                <h3>Review</h3>
+                <p>
+                    Epic visuals, strong story and powerful action scenes.
+                </p>
+            </div>
+
+            <a href="#home" data-role="button" data-transition="flip">Back to Home</a>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

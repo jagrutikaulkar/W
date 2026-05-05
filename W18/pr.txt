@@ -1,0 +1,23 @@
+Insert songs
+http://localhost:3000/insert
+
+Display songs in table
+http://localhost:3000/songs
+
+Songs by music director
+http://localhost:3000/music/Pritam
+
+Music director + singer
+http://localhost:3000/director/Pritam/singer/Arijit Singh
+
+Delete song
+http://localhost:3000/delete/Malang
+
+Add new song
+http://localhost:3000/add
+
+Singer from film
+http://localhost:3000/film/Brahmastra/singer/Arijit Singh
+
+Update actor actress
+http://localhost:3000/update/Kesariya

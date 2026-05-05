@@ -1,0 +1,99 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#fff7ef;
+    color:#333;
+}
+
+/* HEADER */
+
+header{
+    background:#d35400;
+    color:white;
+    padding:25px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+}
+
+/* NAVBAR */
+
+nav{
+    background:#333;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#f39c12;
+}
+
+/* ABOUT */
+
+.about{
+    text-align:center;
+    padding:30px;
+    max-width:800px;
+    margin:auto;
+}
+
+/* MENU */
+
+.menu{
+    text-align:center;
+    padding:30px;
+}
+
+/* GALLERY */
+
+.gallery{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+/* CARD */
+
+.card{
+    background:white;
+    width:260px;
+    padding:15px;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+    transition:transform 0.2s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.card img{
+    width:100%;
+    border-radius:5px;
+}
+
+.price{
+    font-weight:bold;
+    color:#d35400;
+}
+
+/* FOOTER */
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
