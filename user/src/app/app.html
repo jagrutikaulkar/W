@@ -1,0 +1,42 @@
+<div class="container">
+
+  <h1>User System</h1>
+
+  <!-- ⭐ LOGIN PAGE -->
+  <div *ngIf="page === 'login'">
+    <h2>Login</h2>
+
+    <input type="email" placeholder="Email" [(ngModel)]="loginEmail" />
+    <input type="password" placeholder="Password" [(ngModel)]="loginPassword" />
+
+    <button (click)="login()">Login</button>
+
+    <p (click)="page='register'" class="link">New user? Register</p>
+  </div>
+
+  <!-- ⭐ REGISTER PAGE -->
+  <div *ngIf="page === 'register'">
+    <h2>Register</h2>
+
+    <input type="text" placeholder="Name" [(ngModel)]="regName" />
+    <input type="email" placeholder="Email" [(ngModel)]="regEmail" />
+    <input type="password" placeholder="Password" [(ngModel)]="regPassword" />
+
+    <button (click)="register()">Register</button>
+
+    <p (click)="page='login'" class="link">Already user? Login</p>
+  </div>
+
+  <!-- ⭐ PROFILE PAGE -->
+  <div *ngIf="page === 'profile'">
+    <h2>Profile</h2>
+
+    <div class="card">
+      <p><b>Name:</b> {{ currentUser.name }}</p>
+      <p><b>Email:</b> {{ currentUser.email }}</p>
+    </div>
+
+    <button (click)="logout()">Logout</button>
+  </div>
+
+</div>
